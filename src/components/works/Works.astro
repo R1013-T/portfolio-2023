@@ -1,0 +1,108 @@
+---
+import UseIcon from "./UseIcon.astro";
+import WorkItem from "./WorkItem.astro";
+---
+
+<h2
+  class="w-full text-center text-theme-white text-3xl tracking-widest -mt-10 font-Geologica"
+>
+  Works
+</h2>
+<div class="flex flex-wrap justify-center w-full mb-20">
+  <WorkItem>
+    <a
+      href="https://github.com/R1013-T/hitokan-app"
+      target="_blank"
+      class="w-full grid place-items-center absolute top-0 left-0"
+    >
+      <img
+        src="/images/hitokan.png"
+        alt="hitokan"
+        class="p-5 opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
+      />
+    </a>
+    <div class="w-full h-32 absolute bottom-1 ring-0 p-5 text-theme-white">
+      <h3 class="text-xl tracking-wide mb-1">ヒトカン</h3>
+      <p class="text-sm">知り合いの情報を管理するWebアプリケーション。</p>
+    </div>
+    <div class="absolute bottom-0 p-5 w-full flex mt-3">
+      <UseIcon name="nextjs" />
+      <UseIcon name="typescript" />
+      <UseIcon name="firebase" />
+    </div>
+  </WorkItem>
+  <WorkItem>
+    <a
+      href="https://github.com/R1013-T/ENAN/tree/dev"
+      target="_blank"
+      class="w-full grid place-items-center absolute top-0 left-0"
+    >
+      <img
+        src="/images/enan.png"
+        alt="enan"
+        class="p-5 opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
+      />
+    </a>
+    <div class="w-full h-32 absolute bottom-1 ring-0 p-5 text-theme-white">
+      <h3 class="text-xl tracking-wide mb-1">名探偵エナン</h3>
+      <p class="text-sm">
+        WebARを使用した推理ゲーム。学園祭での出展に向けて作成中。
+      </p>
+    </div>
+    <div class="absolute bottom-0 p-5 w-full flex mt-3">
+      <UseIcon name="nextjs" />
+      <UseIcon name="typescript" />
+      <UseIcon name="threejs" />
+      <UseIcon name="supabase" />
+      <UseIcon name="tailwind" />
+    </div>
+  </WorkItem>
+  <WorkItem>
+    <a
+      href="https://github.com/R1013-T/task-app-frontend"
+      target="_blank"
+      class="w-full grid place-items-center absolute top-0 left-0"
+    >
+      <img
+        src="/images/taskapp.png"
+        alt="enan"
+        class="p-5 opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
+      />
+    </a>
+    <div class="w-full h-32 absolute bottom-1 ring-0 p-5 text-theme-white">
+      <h3 class="text-xl tracking-wide mb-1">タスクアプリ</h3>
+      <p class="text-sm">貴社のフロントエンドの技術スタックにあったGraphQLを学ぶ為に作成。</p>
+    </div>
+    <div class="absolute bottom-0 p-5 w-full flex mt-3">
+      <UseIcon name="react" />
+      <UseIcon name="typescript" />
+      <UseIcon name="graphql" />
+      <UseIcon name="nestjs" />
+      <UseIcon name="prisma" />
+      <UseIcon name="apollo" />
+    </div>
+  </WorkItem>
+  <WorkItem>
+    <a
+      href="https://github.com/R1013-T/portfolio-2022"
+      target="_blank"
+      class="w-full grid place-items-center absolute top-0 left-0"
+    >
+      <img
+        src="/images/portfolio.png"
+        alt="enan"
+        class="p-5 opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
+      />
+    </a>
+    <div class="w-full h-32 absolute bottom-1 ring-0 p-5 text-theme-white">
+      <h3 class="text-xl tracking-wide mb-1">ポートフォリオ 2022</h3>
+      <p class="text-sm">
+        昨年に作成したポートフォリオ。アニメーションを多用。
+      </p>
+    </div>
+    <div class="absolute bottom-0 p-5 w-full flex mt-3">
+      <UseIcon name="nextjs" />
+      <UseIcon name="gsap" />
+    </div>
+  </WorkItem>
+</div>
