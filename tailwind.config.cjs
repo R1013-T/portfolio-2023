@@ -18,6 +18,7 @@ module.exports = {
 			height: {
 				'top': 'calc(85vh)',
 				'99': '99%',
+				'100': '420px',
 				'300': '300%'
 			},
 			width: {
